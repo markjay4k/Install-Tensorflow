@@ -1,5 +1,6 @@
 # Install Tensorflow 2.4
 
+[Github pages version](https://markjay4k.github.io/Install-Tensorflow/)
 We're going for Tensorflow 2.4.1 with GPU support on an Ubuntu 20.04 system.
 
 - GPU: GTX 1070
