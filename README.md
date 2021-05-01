@@ -63,7 +63,7 @@ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 ```
 
-Now, let's update our paths in ```.bashrc```. Add the following lines to the end of our ```.bashrc``` file.
+Next, we need to update our ```.bashrc``` by adding the path to a few cuda folders to ```LD_LIBRARY_PATH```. Add the following lines to the end of our ```.bashrc``` file. Or to ```.zshrc``` if you're using zsh.
 
 ```shell
 export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
