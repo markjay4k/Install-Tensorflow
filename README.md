@@ -57,8 +57,8 @@ You need an Nvidia account to download cuDNN, so sign up for one (don't worry, i
 Once, downloaded, we need to unzip the tar file (`tar`), copy some files to our CUDA Toolkit folders (`cp`), and change their mode (`chmod`). To do this, run the following commands:
 
 ```shell
-tar -xzvf cudnn-11.0-linux-x64-v8.0.4.30.tgs
-sudo cp cuda/lib64/cudnn.h /usr/local/cuda/include
+tar -xzvf cudnn-11.0-linux-x64-v8.0.4.30.tgz
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 ```
